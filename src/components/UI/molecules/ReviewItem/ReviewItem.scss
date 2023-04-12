@@ -1,0 +1,29 @@
+.review-items {
+  margin-bottom: 50px;
+
+  .review-item {
+    margin-bottom: 50px;
+
+    &__rating-and-heading {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      h6 {
+        text-transform: uppercase;
+        margin-left: 25px;
+        font-size: 14px;
+      }
+    }
+
+    &__message {
+      margin-top: 15px;
+      margin-bottom: 15px;
+
+      p {
+        margin: 0;
+        font-size: 14px;
+      }
+    }
+  }
+}

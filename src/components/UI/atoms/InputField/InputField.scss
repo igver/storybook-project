@@ -1,0 +1,19 @@
+.form-control {
+  label {
+    font-size: 12px;
+  }
+
+  &.error label {
+    color: #ff0000;
+  }
+
+  input {
+    height: 36px;
+    padding: 0 10px;
+    margin-top: 5px;
+  }
+
+  &.error input {
+    border: 1px solid #ff0000;
+  }
+}

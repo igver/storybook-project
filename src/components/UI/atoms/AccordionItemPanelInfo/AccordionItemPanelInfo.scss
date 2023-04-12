@@ -1,0 +1,49 @@
+.my-acc {
+  flex-direction: column;
+  width: 100%;
+  row-gap: 20px;
+
+  .accordion__panel {
+    &[hidden] {
+      display: none;
+    }
+
+    h6 {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.my-acc__my-item {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  align-items: center;
+
+  &__image-box {
+    width: 70px;
+    height: 70px;
+
+    .image-box {
+      width: 100%;
+      height: 100%;
+
+      img {
+        object-fit: cover;
+        border-radius: 0;
+      }
+    }
+  }
+
+  &__text-info {
+    h6 {
+      font-size: 14px;
+    }
+
+    p {
+      font-size: 14px;
+      margin-top: 5px;
+      margin: 0;
+    }
+  }
+}

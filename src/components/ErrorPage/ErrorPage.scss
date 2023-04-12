@@ -1,0 +1,29 @@
+.error-page {
+  width: 100%;
+  padding: 300px 20px;
+  text-align: center;
+
+  h1 {
+    font-size: 160px;
+    line-height: 120px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 30px;
+    color: #fd4f4f;
+  }
+
+  h3 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+
+  p {
+    a {
+      color: #fd4f4f;
+      font-weight: 600;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.button-star {
+  background-color: unset;
+  border: unset;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  margin-right: 5px;
+
+  &:last-child {
+    margin: 0;
+  }
+
+  .star {
+    color: #818181;
+    font-size: 20px;
+    height: auto;
+
+    &.star-fill {
+      fill: #333333;
+    }
+  }
+}

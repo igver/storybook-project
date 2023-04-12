@@ -1,0 +1,16 @@
+.stock {
+  p {
+    margin: 0;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 10px;
+
+    &.not-available {
+      color: #929292;
+    }
+
+    span {
+      font-weight: 600;
+    }
+  }
+}

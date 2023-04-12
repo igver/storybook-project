@@ -1,0 +1,14 @@
+.product-item-info {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+
+  p {
+    font-family: "Roboto", sans-serif;
+  }
+}
+
+.my-accordion {
+  width: 100%;
+  flex: 100%;
+}

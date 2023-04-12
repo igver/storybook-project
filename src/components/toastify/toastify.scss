@@ -1,0 +1,21 @@
+.add-to-cart {
+  background-color: #fd4f4f;
+  color: #fff;
+
+  &-progress {
+    background: #f12f2f;
+  }
+}
+
+.add-to-stock {
+  background-color: #000;
+  color: #fff;
+
+  &-progress {
+    background: #5e5e5e;
+  }
+}
+
+.Toastify__close-button {
+  color: #fff;
+}

@@ -1,0 +1,25 @@
+.toast {
+  position: absolute;
+  right: 25px;
+  bottom: 0px;
+  padding: 15px 50px;
+  opacity: 0;
+  transition: opacity 0.3s, bottom 0.3s;
+
+  &__displayed {
+    opacity: 1;
+    bottom: 35px;
+  }
+
+  p {
+    color: #fff;
+  }
+
+  &__add-to-cart {
+    background-color: #fd4f4f;
+  }
+
+  &__add-to-stock {
+    background-color: #000;
+  }
+}

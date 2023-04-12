@@ -1,0 +1,31 @@
+.form-box {
+  h3 {
+    margin-bottom: 20px;
+  }
+
+  .stars-block {
+    margin-bottom: 5px;
+
+    &.error {
+      .button-star .star {
+        color: #ff0000;
+      }
+    }
+  }
+
+  .form-control {
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    label {
+      font-size: 12px;
+      display: flex;
+    }
+  }
+
+  p {
+    font-size: 12px;
+  }
+}

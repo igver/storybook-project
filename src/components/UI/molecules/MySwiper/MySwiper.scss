@@ -1,0 +1,44 @@
+.my-swiper {
+  display: flex;
+  flex-direction: row;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  flex-wrap: wrap;
+
+  &.no-margin {
+    margin: 0;
+  }
+
+  &__heading {
+    display: flex;
+    width: 100%;
+
+    h3 {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 50px;
+      color: #fd4f4f;
+    }
+  }
+
+  .swiper-border {
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+  }
+
+  .swiper-slide {
+    width: 300px !important;
+  }
+
+  .product-card {
+    flex-shrink: 0;
+    min-height: 100%;
+  }
+
+  .swiper-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

@@ -1,0 +1,22 @@
+.form-control {
+  label {
+    font-size: 14px;
+  }
+
+  &.error label {
+    color: #ff0000;
+  }
+
+  textarea {
+    margin: 0;
+    margin-top: 5px;
+    padding: 10px;
+    width: 100%;
+    height: 120px;
+    resize: none;
+  }
+
+  &.error textarea {
+    border: 1px solid #ff0000;
+  }
+}

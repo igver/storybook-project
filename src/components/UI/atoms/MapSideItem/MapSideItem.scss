@@ -1,0 +1,36 @@
+.map-side-item {
+  &__heading-infos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+      font-weight: 600;
+      margin: 0;
+      font-size: 14px;
+    }
+
+    &__type {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      p {
+        color: #6a6a6a;
+      }
+
+      .red {
+        background-color: #fd4f4f;
+        color: #fff;
+        padding: 5px 10px;
+        border-radius: 4px;
+        margin-right: 10px;
+      }
+    }
+
+    &__distance {
+      color: #000;
+    }
+  }
+}

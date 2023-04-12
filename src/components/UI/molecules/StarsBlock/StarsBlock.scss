@@ -1,0 +1,27 @@
+.stars-block {
+  display: flex;
+  align-items: center;
+
+  .star {
+    cursor: pointer;
+  }
+
+  p {
+    margin: 0;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #8e8e8e;
+  }
+
+  &.error {
+    p {
+      color: #ff0000;
+    }
+  }
+
+  &.disabled {
+    .button-star .star:hover {
+      cursor: default;
+    }
+  }
+}

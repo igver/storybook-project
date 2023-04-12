@@ -1,0 +1,9 @@
+.username {
+  margin-bottom: 10px;
+
+  span {
+    &:first-child {
+      font-weight: 600;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.review-panel {
+  &__heading-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__para {
+    margin-bottom: 50px;
+  }
+
+  .company-comment p {
+    margin-bottom: 0;
+  }
+}
